@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# Install dependencies
 sudo apt update && sudo apt upgrade -y
+sudo apt install gpg sudo curl -y
+
 
 # Get $ID to choose the repository
 source /etc/os-release
