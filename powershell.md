@@ -10,7 +10,7 @@ This document contains the documentation to configure a powershell as the follow
     1. Go to releases.
     1. Download and install the latest `.msixbundle`.
 
-1. Install a font that supports the Nerd Font Symbols, for example the [Cascadia Code|Mono NF](https://github.com/microsoft/cascadia-code) or DejaVuSans:
+1. Install a font that supports the Nerd Font Symbols, for example the [Cascadia Code|Mono NF](https://github.com/microsoft/cascadia-code) or DejaVuSans (This step is not needed in `windows 11`):
 
     1. Download the [Font Patcher](https://www.nerdfonts.com/).
     1. Extract it.
@@ -32,13 +32,13 @@ This document contains the documentation to configure a powershell as the follow
     1. Create a file `~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1`.
     1. Add this line to the file `Invoke-Expression (&starship init powershell)`.
 
-1. Open powershell and change the settings to show the font and color:
+1. Open powershell and change the settings to show the font and color (This step is not needed in `windows 11`):
 
     1. Right click the tab header and go to the properties.
     1. In `Font` select the installed font, for example `Cascadia Mono NF Extralight`.
     1. In color write the dark mode vs code colors: `Red: 37, Green 37, Blue 38`.
 
-1. Set the font in vscode.
+1. Set the font in vscode (This step is not needed in `windows 11`).
 
     1. Open the configuration JSON (`F1` and `Open User Settings`).
     1. Set the font: `"terminal.integrated.fontFamily": "'Cascadia Mono NF Extralight'"`.
