@@ -39,7 +39,7 @@ sudo apt install exa -y
 chsh -s $(which fish)
 
 # Install Starship prompt
-curl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh -s -- -y
 
 # Create config directory if it doesn't exist
 mkdir -p ~/.config/fish
